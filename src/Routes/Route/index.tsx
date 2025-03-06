@@ -1,10 +1,14 @@
+import { Card } from "../../assets/components/grid/Card";
 export const RootRoute = () => {
-    return <div className="flex-1">{data.map((item) => {
-        return <div className="flex flex_wrap" style={{width:'100px'}}>{item.name}
-        <img src={item.image}/>
-        </div>
-    })}</div>
-    }
+    return <div className="flex flex_wrap gap-4 item-center justify-center">{data.map((item) => <Card
+    id={item.id}
+    image={item.image}
+    name={item.name}
+    types={item.types}
+        >            
+        </Card>
+    )}</div>
+}
     const data = [
         {
           id: 1,
@@ -41,11 +45,5 @@ export const RootRoute = () => {
           name: "Pikachu",
           types: ["electric"],
         },
-        {
-          id: 74,
-          image:
-            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
-          name: "Geodude",
-          types: ["rock", "ground"],
-        },
+        
       ];
