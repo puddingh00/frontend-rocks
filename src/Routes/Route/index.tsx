@@ -1,6 +1,6 @@
 export const RootRoute = () => {
     return <div>{data.map((item) => {
-        return <div className="">{item.name}
+        return <div className="flex flex_wrap" style={{width:'100px'}}>{item.name}
         <img src={item.image}/>
         </div>
     })}</div>
@@ -9,22 +9,22 @@ export const RootRoute = () => {
         {
           id: 1,
           image:
-            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
-          name: "Bulbasaur",
-          types: ["grass", "poison"],
+            "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/644.png",
+          name: "Zekrom",
+          types: ["Dragonite, "],
         },
         {
           id: 4,
           image:
-            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
-          name: "Charmander",
+            "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/248.png",
+          name: "Tyranitar",
           types: ["fire"],
         },
         {
           id: 7,
           image:
-            "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
-          name: "Squirtle",
+            "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/487.png",
+          name: "Giratina",
           types: ["water"],
         },
         {
