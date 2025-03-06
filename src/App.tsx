@@ -33,7 +33,7 @@ export const App = () => {
             Hai premuto il pulsante {count} {count === 1 ? "volta" : "volte"}
           </button>
           <button
-          onClick={()=> setTitle("Luca guarascio")}
+          onClick={()=> setTitle("Luca")}
           >
             cambia titolo 
           </button>
