@@ -44,7 +44,7 @@ export const RootRoute = () => {
     
             <p className="text-center text-sm text-blue-400">Clicca sui loghi per saperne di più</p>
             <Link to={'/dettaglio/0${count}'}>
-        Dettagli
+        vai alla pagina di dettaglo {count}
         </Link>
           </div>
         </div>
