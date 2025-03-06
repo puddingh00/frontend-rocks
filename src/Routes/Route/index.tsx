@@ -1,5 +1,5 @@
 export const RootRoute = () => {
-    return <div>{data.map((item) => {
+    return <div className="flex-1">{data.map((item) => {
         return <div className="flex flex_wrap" style={{width:'100px'}}>{item.name}
         <img src={item.image}/>
         </div>
