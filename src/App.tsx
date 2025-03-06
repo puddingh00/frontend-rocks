@@ -11,6 +11,7 @@ export const App = () => {
       <div className="bg-white p-8 rounded-md shadow-lg">
         <h1 className="text-center font-bold text-3xl text-blue-400 mb-4">
         {title}
+        ciao
         </h1>
 
         <div className="flex justify-center space-x-4 mb-2">
