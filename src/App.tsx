@@ -1,15 +1,16 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import { title } from "process";
 
 export const App = () => {
   const [count, setCount] = useState(0);
-
+  const [title, setTitle ] = useState("stupid ling ling");
   return (
     <div className="h-dvh flex flex-col items-center justify-center">
       <div className="bg-white p-8 rounded-md shadow-lg">
         <h1 className="text-center font-bold text-3xl text-blue-400 mb-4">
-          Frontend Rocks
+        {title}
         </h1>
 
         <div className="flex justify-center space-x-4 mb-2">
@@ -29,6 +30,11 @@ export const App = () => {
             onClick={() => setCount((count) => count + 1)}
           >
             Hai premuto il pulsante {count} {count === 1 ? "volta" : "volte"}
+          </button>
+          <button
+          onClick={()=> setTitle("Luca guarascio")}
+          >
+            cambia titolo 
           </button>
           <p className="text-center">
             Modifica <code>src/App.tsx</code> e salva per testare l'hot reload
