@@ -5,8 +5,8 @@ import viteLogo from "/vite.svg";
 
 export const App = () => {
   const [count, setCount] = useState(0);
-  const [title, setTitle ] = useState("sciaog");
-  return (
+  const [title, setTitle ] = useState("sciaogo");
+  return (  
     <div className="h-dvh flex flex-col items-center justify-center">
       <div className="bg-white p-8 rounded-md shadow-lg">
         <h1 className="text-center font-bold text-3xl text-blue-400 mb-4">
